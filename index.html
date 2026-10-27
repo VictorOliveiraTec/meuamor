@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff7f2" />
+    <meta
+      name="description"
+      content="Uma pequena apresentação da nossa história."
+    />
+    <title>Nossa História</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="topbar">
+        <a class="wordmark" href="#top" aria-label="Voltar ao início"
+          ><span class="wordmark-heart">♥</span><span>nossa história</span></a
+        >
+        <a class="top-link" href="#momentos">ver a linha do tempo ↓</a>
+      </header>
+      <section class="hero" id="top">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="kicker">✧ feito de pequenos infinitos</p>
+          <h1>Você é a minha<br /><em>parte favorita</em><br />da história.</h1>
+          <p class="hero-intro">
+            Você é uma pessoa que eu Victor, não esperava, sinto que com você posso crescer, ser melhor,
+            e um dia possa te dar tudo oque você não teve, te respeito muito, mesmo te fazendo muita raiva,
+            você é a pessoa que me faz sorrir, e me faz sentir que posso ser melhor, e que posso te fazer feliz.
+          </p>
+          <a class="hero-cta" href="#momentos">começar a lembrar ↓</a>
+        </div>
+        <div class="hero-portrait" aria-label="Espaço para uma foto de vocês">
+          <div class="hero-photo-card">
+            <div class="hero-photo-inner">
+              <span class="hero-heart">♥</span
+              ><span><img style="max-width: 100%; height: auto;" src="assets/1788130030403.jpg" alt="Foto de vocês"></span>
+            </div>
+            <span class="hero-card-caption"
+              >desde o nosso primeiro capítulo</span
+            >
+          </div>
+          <span class="hero-scribble">com amor, sempre ♥</span>
+        </div>
+        <div class="hero-scroll">
+          <span>deslize para continuar</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+      <section class="intro" aria-label="Introdução">
+        <div class="section-number">
+          01 <span>de uma história inteira</span>
+        </div>
+        <div class="intro-copy">
+          <p class="kicker">para você, meu amor</p>
+          <h2>
+            Algumas histórias são contadas.<br /><em>A nossa é sentida.</em>
+          </h2>
+          <p>
+            Nem sempre encontramos as palavras certas para falar sobre o que
+            sentimos. Então, guardei aqui alguns pedaços dos nossos dias — para
+            lembrar que o amor também mora nos detalhes.
+          </p>
+          <div class="signature">
+            <span>com carinho,</span><strong>seu amor</strong>
+          </div>
+        </div>
+        <div class="intro-mark">♡</div>
+      </section>
+      <section class="timeline-section" id="momentos">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">a nossa linha do tempo</p>
+            <h2>Do primeiro <em>oi</em><br />até o nosso agora.</h2>
+          </div>
+          <p class="heading-aside">
+            Passe pelos capítulos<br />que fizeram a gente chegar até aqui.
+          </p>
+        </div>
+        <div class="timeline-nav" aria-label="Navegação pelos momentos">
+          <div class="timeline-track"><span id="timeline-progress"></span></div>
+          <div class="timeline-dots" id="timeline-dots"></div>
+        </div>
+        <article class="moment-card rose" id="moment-card">
+          <div class="moment-photo-wrap">
+            <div class="photo-placeholder rose" id="moment-photo"></div>
+          </div>
+          <div class="moment-copy">
+            <div class="moment-meta">
+              <span id="moment-date"></span><span class="meta-rule"></span
+              ><span id="moment-number"></span>
+            </div>
+            <p class="kicker" id="moment-eyebrow"></p>
+            <h3 id="moment-title"></h3>
+            <p class="moment-text" id="moment-text"></p>
+            <div class="moment-note">
+              <span>♥</span><span id="moment-note"></span>
+            </div>
+            <div class="moment-location">
+              <span>⌖</span><span id="moment-location"></span>
+            </div>
+          </div>
+        </article>
+        <div class="moment-controls">
+          <button class="control-button" id="previous">← anterior</button
+          ><span class="control-count" id="moment-count"></span
+          ><button class="control-button next" id="next">próximo →</button>
+        </div>
+      </section>
+      <section class="quote-section">
+        <div class="quote-mark">“</div>
+        <blockquote>
+          Que a gente nunca se esqueça de como tudo começou,<br /><em
+            >e de como ainda pode ficar bonito.</em
+          >
+        </blockquote>
+        <div class="quote-line">
+          ♥ <span>para todos os nossos próximos capítulos</span> ♥
+        </div>
+      </section>
+      <footer class="closing" id="final">
+        <div class="closing-content">
+          <p class="kicker">♡ capítulo em andamento</p>
+          <h2>Eu escolheria<br /><em>você de novo.</em></h2>
+          <p>
+            Hoje, amanhã e em todas as versões da nossa história que ainda vamos
+            escrever.
+          </p>
+          <div class="closing-heart">♥</div>
+          <span class="closing-date">para sempre, nós dois</span>
+        </div>
+        <div
+          class="closing-photo"
+          aria-label="Espaço para a foto final do casal"
+        >
+          <div class="closing-photo-inner">
+            <span><img style="max-width: 100%; height: auto;" src="assets/beijo-capela.jpg" alt="Foto final do casal"></span>
+          </div>
+        </div>
+      </footer>
+      <button class="back-top" id="back-top" aria-label="Voltar ao topo">
+        ↑
+      </button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
